@@ -36,7 +36,7 @@ public class LoginTest extends BaseTest {
 		BaseTest.getDriver().close();
 	}
 	
-	//@Test
+	@Test
 		public void Tc1_verifyLoginValidUserInvalidPass()throws IOException {			
 			//ExtentTest test = BaseTest.threadExtentTest.get();
 			WebDriver driver = BaseTest.getDriver();
@@ -53,7 +53,7 @@ public class LoginTest extends BaseTest {
 			//throw new NoSuchElementException();
 		}
 	
-	//@Test
+	@Test
 	public void Tc2_verifyLoginWithCorrectCredentials()throws IOException {
 //		BaseTest.test = extent.createTest("Tc2_verifyLoginWithCorrectCredentials1");
 		//ExtentTest test = BaseTest.threadExtentTest.get();
@@ -85,7 +85,7 @@ public class LoginTest extends BaseTest {
 		CommonUtil.captureScreenShot(driver);
 	}
 	
-	//@Test
+	@Test
 	public void Tc4B_verifyLoginwithWrongCredentials()throws IOException
 	{
 		//BaseTest.test=extent.createTest("Tc4B_verifyLoginwithWrongCredentials");
@@ -102,7 +102,7 @@ public class LoginTest extends BaseTest {
 	}
 
 		
-	//@Test
+	@Test
 	public void Tc4A_verifyForgetPassword()throws IOException {
 		//BaseTest.test = extent.createTest("Tc4A_verifyForgetPassword");
 		//ExtentTest test = BaseTest.threadExtentTest.get();
